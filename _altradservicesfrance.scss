@@ -1,0 +1,7 @@
+.modalOffer__content{padding-left: 2rem; padding-right: 2rem;}
+.offer__attribute{
+  &[class*=bg-]{padding: 1.25em ; display: flex; justify-content: space-between; gap:1.25em; }
+  %btn{--btn-p-x: 1em; --btn-border-size: 2px;}
+}
+.offer__attribute__title{text-transform: uppercase; font-weight: bold;margin-bottom: 0.5em;}
+.offer__attribute__icon{color: color(grey);font-size: 3.5em; opacity: 0.6;}
